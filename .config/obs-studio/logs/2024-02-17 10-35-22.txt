@@ -1,0 +1,135 @@
+10:35:22.052: Using EGL/X11
+10:35:22.071: CPU Name: Intel(R) Core(TM) i7-5600U CPU @ 2.60GHz
+10:35:22.071: CPU Speed: 500.000MHz
+10:35:22.071: Physical Cores: 2, Logical Cores: 4
+10:35:22.072: Physical Memory: 11829MB Total, 10086MB Free
+10:35:22.072: Kernel Version: Linux 5.15.0-94-generic
+10:35:22.072: Distribution: "Linux Mint" "21.2"
+10:35:22.072: Desktop Environment: i3 (i3)
+10:35:22.072: Session Type: x11
+10:35:22.072: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:35:22.073: Qt Version: 6.2.4 (runtime), 6.2.4 (compiled)
+10:35:22.074: Portable mode: false
+10:35:22.144: OBS 30.0.1 (linux)
+10:35:22.144: ---------------------------------
+10:35:22.146: ---------------------------------
+10:35:22.146: audio settings reset:
+10:35:22.146: 	samples per sec: 48000
+10:35:22.146: 	speakers:        2
+10:35:22.146: 	max buffering:   960 milliseconds
+10:35:22.146: 	buffering type:  dynamically increasing
+10:35:22.159: ---------------------------------
+10:35:22.159: Initializing OpenGL...
+10:35:22.216: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 5500 (BDW GT2)
+10:35:22.217: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.0.4-0ubuntu1~22.04.1, shading language 4.60
+10:35:22.399: ---------------------------------
+10:35:22.399: video settings reset:
+10:35:22.399: 	base resolution:   1920x1080
+10:35:22.399: 	output resolution: 1280x720
+10:35:22.399: 	downscale filter:  Bicubic
+10:35:22.399: 	fps:               30/1
+10:35:22.399: 	format:            NV12
+10:35:22.399: 	YUV mode:          Rec. 709/Partial
+10:35:22.399: NV12 texture support not available
+10:35:22.399: P010 texture support not available
+10:35:22.407: Audio monitoring device:
+10:35:22.407: 	name: Default
+10:35:22.407: 	id: default
+10:35:22.407: ---------------------------------
+10:35:22.431: No AJA devices found, skipping loading AJA UI plugin
+10:35:22.431: Failed to initialize module 'aja-output-ui.so'
+10:35:22.453: No AJA devices found, skipping loading AJA plugin
+10:35:22.453: Failed to initialize module 'aja.so'
+10:35:22.460: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:35:22.469: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+10:35:22.478: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:35:22.478: Failed to initialize module 'decklink.so'
+10:35:22.827: [pipewire] No captures available
+10:35:22.863: [obs-browser]: Version 2.23.1
+10:35:22.864: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+10:35:23.007: VAAPI: API version 1.14
+10:35:23.008: FFmpeg VAAPI H264 encoding not supported
+10:35:23.008: FFmpeg VAAPI HEVC encoding not supported
+10:35:23.089: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.4 | RPC Version: 1)
+10:35:23.089: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.2.4 | Qt version (run-time): 6.2.4
+10:35:23.089: [obs-websocket] [obs_module_load] Linked ASIO Version: 101801
+10:35:23.089: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+10:35:23.100: [obs-websocket] [obs_module_load] Module loaded.
+10:35:23.144: [vlc-video]: VLC 3.0.16 Vetinari found, VLC video source enabled
+10:35:23.144: ---------------------------------
+10:35:23.144:   Loaded Modules:
+10:35:23.144:     vlc-video.so
+10:35:23.144:     text-freetype2.so
+10:35:23.144:     rtmp-services.so
+10:35:23.144:     obs-x264.so
+10:35:23.144:     obs-websocket.so
+10:35:23.144:     obs-vst.so
+10:35:23.144:     obs-transitions.so
+10:35:23.144:     obs-qsv11.so
+10:35:23.144:     obs-outputs.so
+10:35:23.144:     obs-libfdk.so
+10:35:23.144:     obs-filters.so
+10:35:23.144:     obs-ffmpeg.so
+10:35:23.144:     obs-browser.so
+10:35:23.144:     linux-v4l2.so
+10:35:23.144:     linux-pulseaudio.so
+10:35:23.144:     linux-pipewire.so
+10:35:23.144:     linux-jack.so
+10:35:23.144:     linux-capture.so
+10:35:23.144:     linux-alsa.so
+10:35:23.144:     image-source.so
+10:35:23.144:     frontend-tools.so
+10:35:23.144:     decklink-output-ui.so
+10:35:23.144:     decklink-captions.so
+10:35:23.144: ---------------------------------
+10:35:23.145: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+10:35:23.145: ==== Startup complete ===============================================
+10:35:23.152: No scene file found, creating default scene
+10:35:23.192: All scene data cleared
+10:35:23.192: ------------------------------------------------
+10:35:23.200: pulse-input: Server name: 'pulseaudio 15.99.1'
+10:35:23.200: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+10:35:23.200: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor' (default)
+10:35:23.292: pulse-input: Server name: 'pulseaudio 15.99.1'
+10:35:23.292: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+10:35:23.292: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo' (default)
+10:35:23.294: Switched to scene 'Scene'
+10:35:23.294: Failed to glob scene collections
+10:35:23.853: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+10:35:23.853: 
+10:35:24.345: [rtmp-services plugin] Successfully updated file 'services.json' (version 241)
+10:35:24.345: [rtmp-services plugin] Successfully updated package (version 241)
+10:35:40.641: 
+10:35:40.641: ==== Auto-config wizard testing commencing ======
+
+10:35:58.006: Number of remaining views: 1
+10:35:58.006: ---------------------------------
+10:35:58.006: video settings reset:
+10:35:58.006: 	base resolution:   1920x1080
+10:35:58.006: 	output resolution: 1280x720
+10:35:58.006: 	downscale filter:  Bicubic
+10:35:58.006: 	fps:               30/1
+10:35:58.006: 	format:            NV12
+10:35:58.006: 	YUV mode:          Rec. 709/Partial
+10:35:58.006: NV12 texture support not available
+10:35:58.006: P010 texture support not available
+10:35:58.013: 
+10:35:58.013: ==== Auto-config wizard testing stopping ========
+
+10:36:02.022:   OpenType support missing for "Open Sans", script 11
+10:36:02.029:   OpenType support missing for "Open Sans", script 12
+10:36:02.035:   OpenType support missing for "Open Sans", script 16
+10:36:02.041:   OpenType support missing for "Open Sans", script 20
+10:36:41.145: Number of remaining views: 1
+10:36:41.145: ---------------------------------
+10:36:41.145: video settings reset:
+10:36:41.145: 	base resolution:   1920x1080
+10:36:41.145: 	output resolution: 1920x1080
+10:36:41.145: 	downscale filter:  Bicubic
+10:36:41.145: 	fps:               30/1
+10:36:41.145: 	format:            NV12
+10:36:41.145: 	YUV mode:          Rec. 709/Partial
+10:36:41.145: NV12 texture support not available
+10:36:41.145: P010 texture support not available
+10:36:41.152: Settings changed (video)
+10:36:41.152: ------------------------------------------------

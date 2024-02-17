@@ -1,0 +1,47 @@
+00:00:00.000173 main     VirtualBox XPCOM Server 6.1.48_Ubuntu r159471 linux.amd64 (Sep 16 2023 05:46:21) release log
+00:00:00.000177 main     Log opened 2024-02-16T14:33:53.208117000Z
+00:00:00.000178 main     Build Type: release
+00:00:00.000180 main     OS Product: Linux
+00:00:00.000181 main     OS Release: 5.15.0-94-generic
+00:00:00.000182 main     OS Version: #104-Ubuntu SMP Tue Jan 9 15:25:40 UTC 2024
+00:00:00.000200 main     DMI Product Name: Latitude E7450
+00:00:00.000207 main     DMI Product Version: 
+00:00:00.000211 main     Firmware type: UEFI
+00:00:00.000354 main     Secure Boot: Disabled
+00:00:00.000400 main     Host RAM: 11829MB (11.5GB) total, 11227MB (10.9GB) available
+00:00:00.000403 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000403 main     Process ID: 12698
+00:00:00.000403 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001398 main     IPC socket path: /tmp/.vbox-darkice-ipc/ipcd
+00:00:00.104439 nspr-2   VirtualBox: object creation starts
+00:00:00.104508 nspr-2   Home directory: '/home/darkice/.config/VirtualBox'
+00:00:00.104648 nspr-2   Loading settings file "/home/darkice/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.112469 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.113375 nspr-2   HostDnsMonitor: initializing
+00:00:00.113683 nspr-2   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.113694 nspr-2   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.113703 nspr-2   HostDnsMonitor: updating information
+00:00:00.113715 nspr-2   HostDnsMonitor: old information
+00:00:00.113718 nspr-2     no server entries
+00:00:00.113721 nspr-2     no domain set
+00:00:00.113723 nspr-2     no search string entries
+00:00:00.113726 nspr-2   HostDnsMonitor: new information
+00:00:00.113728 nspr-2     server 1: 127.0.0.53
+00:00:00.113731 nspr-2     domain: .
+00:00:00.113733 nspr-2     search string 1: .
+00:00:00.115842 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.115912 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.118991 nspr-2   Loading settings file "/home/darkice/VirtualBox VMs/windows 11/windows 11.vbox" with version "1.15-linux"
+00:00:00.119484 nspr-2   VirtualBox: object created
+00:00:00.621178 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.814418 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.815656 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.483317 nspr-3   Saving settings file "/home/darkice/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:07.491896 nspr-2   Saving settings file "/home/darkice/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:13.019503 main     VirtualBox: object deletion starts
+00:00:13.019598 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/darkice/VirtualBox VMs/windows 11/windows 11.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:13.020428 main     HostDnsMonitor: shutting down ...
+00:00:13.033265 main     HostDnsMonitor: shut down
+00:00:13.123849 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:18.033387 main     {00007fee50018f30} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:18.033594 main     VirtualBox: object deleted
