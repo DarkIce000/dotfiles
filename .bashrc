@@ -126,6 +126,7 @@ alias acitvatemail='cd ~/courses/cs50web/mail/ && source bin/activate'
 alias foliorunserver='cd ~/portfolio-project/ && source bin/activate && python manage.py runserver'
 alias codefolio='cd ~/portfolio-project/ && source bin/activate && nvim .'
 alias acitvatefolio='cd ~/portfolio-project/ && source bin/activate'
+alias s="apt-cache search"
+alias i="sudo apt install"
 
 #---
-/bin/fish
