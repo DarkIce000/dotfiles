@@ -10,6 +10,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id /usr/libexec/gsd-xsettings
 exec --no-startup-id xinput --set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "libinput Tapping Enabled" 1
 exec --no-startup-id kdeconnect-indicator
+exec --no-startup-id $HOME/.config/polybar/launch.sh
+
 #exec --no-startup-id xrandr --output eDP-1 --mode 1600x900
 exec --no-startup-id anypaper -l
 
@@ -32,11 +34,10 @@ bindsym $mod+Mod1+s exec systemctl suspend
 bindsym $mod+Mod1+p exec shutdown now
 
 #Applications 
-bindsym $mod+space exec  rofi -show combi -combi-modi "drun#run#filebrowser" -modi combi -show-icons
+bindsym $mod+space exec  rofi -show combi -combi-modi "window#drun#run#find" -modi combi -show-icons
 bindsym Mod1+space exec rofi  -show find -modi find:~/.local/share/rofi/f.sh
 bindsym $mod+Return exec kitty
-bindsym $mod+c exec firefox
-bindsym $mod+semicolon exec code
+bindsym $mod+c exec google-chrome-stable
 bindsym $mod+n exec dolphin 
 
 # MyPersonal Settings
@@ -79,6 +80,10 @@ bindsym $mod+Shift+f focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
+
+# toggling workspace 
+bindsym $mod+Shift+h workspace next
+bindsym $mod+Shift+l workspace prev
 
 set $ws1 "1"
 set $ws2 "2"
@@ -152,22 +157,22 @@ set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
 
-# bar
-bar {
-  	status_command i3status -c ~/i3status.conf
-	colors {
-		background $bg-color
-	    	separator #757575
-		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
-		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-	}
-
-	mode dock 
-	hidden_state hide
-	modifier Mod1
-}
+# # bar
+# bar {
+#   	status_command i3status -c ~/i3status.conf
+# 	colors {
+# 		background $bg-color
+# 	    	separator #757575
+# 		#                  border             background         text
+# 		focused_workspace  $bg-color          $bg-color          $text-color
+# 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+# 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+# 	}
+#
+# 	mode dock 
+# 	hidden_state hide
+# 	modifier Mod1
+# }
 
 # window colors
 #                       border              background         text                 indicator

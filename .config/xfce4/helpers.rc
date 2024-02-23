@@ -1,3 +1,4 @@
-WebBrowser=google-chrome
+WebBrowser=debian-sensible-browser
+FileManager=custom-FileManager
 TerminalEmulator=kitty
 

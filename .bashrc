@@ -130,3 +130,4 @@ alias s="apt-cache search"
 alias i="sudo apt install"
 
 #---
+. "$HOME/.cargo/env"
