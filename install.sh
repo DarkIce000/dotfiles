@@ -39,4 +39,7 @@ rm -rf $HOME/.bashrc $HOME/.bashrc.bak
 ln -sf $HOME/dotfiles/.config $HOME/.config 
 ln -sf $HOME/dotfiles/.bashrc $HOME/.bashrc 
 ln -sf $HOME/dotfiles/i3status.conf $HOME/i3status.conf
-#getting configrations for the i3window manager
+
+#git useful configrations 
+git config --global credential.helper store
+
