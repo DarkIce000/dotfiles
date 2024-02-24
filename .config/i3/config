@@ -10,8 +10,6 @@ exec --no-startup-id nm-applet
 exec --no-startup-id /usr/libexec/gsd-xsettings
 exec --no-startup-id xinput --set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "libinput Tapping Enabled" 1
 exec --no-startup-id kdeconnect-indicator
-exec --no-startup-id $HOME/.config/polybar/launch.sh
-
 #exec --no-startup-id xrandr --output eDP-1 --mode 1600x900
 exec --no-startup-id anypaper -l
 
@@ -34,8 +32,7 @@ bindsym $mod+Mod1+s exec systemctl suspend
 bindsym $mod+Mod1+p exec shutdown now
 
 #Applications 
-bindsym $mod+space exec  rofi -show combi -combi-modi "window#drun#run#find:~/.local/share/rofi/f.sh
-" -modi combi -show-icons
+bindsym $mod+space exec  rofi -show combi -combi-modi "window#drun#run" -modi combi -show-icons
 bindsym Mod1+space exec rofi  -show find -modi find:~/.local/share/rofi/f.sh
 bindsym $mod+Return exec kitty
 bindsym $mod+c exec google-chrome-stable
