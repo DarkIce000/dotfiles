@@ -34,7 +34,8 @@ bindsym $mod+Mod1+s exec systemctl suspend
 bindsym $mod+Mod1+p exec shutdown now
 
 #Applications 
-bindsym $mod+space exec  rofi -show combi -combi-modi "window#drun#run#find" -modi combi -show-icons
+bindsym $mod+space exec  rofi -show combi -combi-modi "window#drun#run#find:~/.local/share/rofi/f.sh
+" -modi combi -show-icons
 bindsym Mod1+space exec rofi  -show find -modi find:~/.local/share/rofi/f.sh
 bindsym $mod+Return exec kitty
 bindsym $mod+c exec google-chrome-stable

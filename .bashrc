@@ -128,6 +128,8 @@ alias codefolio='cd ~/portfolio-project/ && source bin/activate && nvim .'
 alias acitvatefolio='cd ~/portfolio-project/ && source bin/activate'
 alias s="apt-cache search"
 alias i="sudo apt install"
-
+alias i3config="vim $HOME/.config/i3/config"
+alias roficonfig="vim $HOME/.config/rofi/config.rasi"
+alias polybarconfig="vim $HOME/.config/polybar/config"
 #---
 . "$HOME/.cargo/env"

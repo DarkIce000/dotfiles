@@ -3,7 +3,7 @@
 apt update && apt dist-upgrade -y
 
 #installing some system utilities 
-apt install brightnessctl pulseaudio pavucontrol git anypaper feh flameshot blueman apt-transport-https  -y  
+apt install brightnessctl pulseaudio pavucontrol git anypaper feh flameshot blueman polybar apt-transport-https  -y  
 
 ## adding the special repositoryies 
 add-apt-repository ppa:neovim-ppa/unstable
@@ -32,11 +32,11 @@ chmod +s $(which brightnessctl)
 
 
 # replacing old files 
-rm -rf ~/.config ~/.config.bak
-rm -rf ~/.bashrc ~/.bashrc.bak
+rm -rf $HOME/.config $HOME/.config.bak
+rm -rf $HOME/.bashrc $HOME/.bashrc.bak
 
 # creating symlinks 
-ln -sf ~/dotfiles/.config ~/.config 
-ln -sf ~/dotfiles/.bashrc ~/.bashrc 
-ln -sf ~/dotfiles/i3status.conf ~/i3status.conf
+ln -sf $HOME/dotfiles/.config $HOME/.config 
+ln -sf $HOME/dotfiles/.bashrc $HOME/.bashrc 
+ln -sf $HOME/dotfiles/i3status.conf $HOME/i3status.conf
 #getting configrations for the i3window manager
