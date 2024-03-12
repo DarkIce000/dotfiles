@@ -132,4 +132,3 @@ alias i3config="vim $HOME/.config/i3/config"
 alias roficonfig="vim $HOME/.config/rofi/config.rasi"
 alias polybarconfig="vim $HOME/.config/polybar/config"
 #---
-. "$HOME/.cargo/env"

@@ -10,6 +10,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id /usr/libexec/gsd-xsettings
 exec --no-startup-id xinput --set-prop "AlpsPS/2 ALPS DualPoint TouchPad" "libinput Tapping Enabled" 1
 exec --no-startup-id kdeconnect-indicator
+exec --no-startup-id xfce4-panel
 #exec --no-startup-id xrandr --output eDP-1 --mode 1600x900
 exec --no-startup-id anypaper -l
 
@@ -32,11 +33,13 @@ bindsym $mod+Mod1+s exec systemctl suspend
 bindsym $mod+Mod1+p exec shutdown now
 
 #Applications 
-bindsym $mod+space exec  rofi -show combi -combi-modi "window#drun#run" -modi combi -show-icons
+bindsym $mod+space exec  rofi -show combi -combi-modi "drun#run#filebrowser" -modi combi -show-icons
 bindsym Mod1+space exec rofi  -show find -modi find:~/.local/share/rofi/f.sh
+bindsym Mod1+n exec rofi  -show find -modi find:~/.local/share/rofi/d.sh
 bindsym $mod+Return exec kitty
-bindsym $mod+c exec google-chrome-stable
+bindsym $mod+c exec google-chrome-stable 
 bindsym $mod+n exec dolphin 
+bindsym $mod+p exec gpaste-client ui
 
 # MyPersonal Settings
 bindsym Print exec flameshot gui -p /home/darkice/Pictures/ 
@@ -105,7 +108,6 @@ bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
-
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2

@@ -6,6 +6,9 @@ x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
 inode/directory=xfce4-file-manager.desktop
 x-scheme-handler/trash=xfce4-file-manager.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-NLYSJ2.desktop
+message/rfc822=userapp-Thunderbird-NLYSJ2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-NLYSJ2.desktop
 
 [Added Associations]
 x-scheme-handler/http=xfce4-web-browser.desktop;
@@ -13,4 +16,6 @@ x-scheme-handler/https=xfce4-web-browser.desktop;
 image/jpeg=feh.desktop;
 inode/directory=xfce4-file-manager.desktop;
 x-scheme-handler/trash=xfce4-file-manager.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-NLYSJ2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-NLYSJ2.desktop;
 

@@ -1,0 +1,14 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[347241c9-9da1-4f28-83aa-551c1d66fbdc]
+Description=Window settings for code
+clientmachine=localhost
+fullscreen=true
+fullscreenrule=3
+title=models.py - miniProject - Visual Studio Code
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=code
+wmclassmatch=1

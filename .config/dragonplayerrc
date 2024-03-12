@@ -1,0 +1,25 @@
+[General]
+Recent Urls[$e]=file:///run/user/1000/b1e53bc4_2d05_4568_aee0_98f2c2009bca/storage/emulated/0/Download/2024-02-08 13-02-32.mkv
+TimeFormat=1
+Volume=1
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAN7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 Height 1920x1080=258
+eDP-1 Width 1920x1080=651
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition 1920x1080=50
+
+[Phonon::AudioOutput]
+Dragon Player_Volume=1
+
+[file:///run/user/1000/b1e53bc4_2d05_4568_aee0_98f2c2009bca/storage/emulated/0/Download/2024-02-08 13-02-32.mkv]
+Brightness=0
+Contrast=0
+Date=2024,3,12
+Hue=0
+IsVideo=false
+Preferred Size=1920,891
+Saturation=0

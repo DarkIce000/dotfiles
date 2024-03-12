@@ -25,21 +25,16 @@ rm -f packages.microsoft.gpg
 apt update 
 
 # installing own softwares
-apt install kitty neovim firefox dolphin kdeconnect fish psensor i3 gdebi ffmpeg obs-studio lxappearance wget vlc code -y 
+apt install kitty neovim firefox gpaste dolphin kdeconnect fish psensor i3 gdebi ffmpeg obs-studio lxappearance wget vlc code -y 
 
 # giving permission to brightnessctl 
 chmod +s $(which brightnessctl)
 
 
 # replacing old files 
-rm -rf $HOME/.config $HOME/.config.bak
-rm -rf $HOME/.bashrc $HOME/.bashrc.bak
+rm -rf ~/.config ~/.bashrc
 
 # creating symlinks 
-ln -sf $HOME/dotfiles/.config $HOME/.config 
-ln -sf $HOME/dotfiles/.bashrc $HOME/.bashrc 
-ln -sf $HOME/dotfiles/i3status.conf $HOME/i3status.conf
-
-#git useful configrations 
-git config --global credential.helper store
-
+ln -sf ~/dotfiles/.config ~/.config 
+ln -sf ~/dotfiles/.bashrc ~/.bashrc 
+ln -sf ~/dotfiles/i3status.conf ~/i3status.conf

@@ -5,4 +5,6 @@
     <property name="sort-type" type="uint" value="1"/>
     <property name="sort-id" type="uint" value="7"/>
   </property>
+  <property name="window-width" type="int" value="953"/>
+  <property name="window-height" type="int" value="348"/>
 </channel>

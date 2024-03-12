@@ -9,16 +9,22 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=d424dce4-63bd-40e1-8d5b-081bc2f39714"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=d424dce4-63bd-40e1-8d5b-081bc2f39714,m=a50377b3-e07d-4f17-9d84-c844eba87bf3,m=ceafa11d-c614-4959-9f75-96076d15e6cc"/>
+      <ExtraDataItem name="GUI/GuestControl/FileManagerDialogGeometry" value="2,40,1916,1038"/>
+      <ExtraDataItem name="GUI/GuestControl/FileManagerVisiblePanels" value="SessionPanel"/>
       <ExtraDataItem name="GUI/HideDescriptionForWizards" value="NewVD"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=windows 11"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="2,26,1916,1052"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=kde neon"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="2,40,1916,1038"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/darkice/Documents"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/darkice/Documents/neon-user-20240229-0716.iso,/home/darkice/Documents/archcraft-2024.01.08-x86_64.iso"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="654,1261"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{d424dce4-63bd-40e1-8d5b-081bc2f39714}" src="/home/darkice/VirtualBox VMs/windows 11/windows 11.vbox"/>
+      <MachineEntry uuid="{a50377b3-e07d-4f17-9d84-c844eba87bf3}" src="/home/darkice/VirtualBox VMs/Archcraft/Archcraft.vbox"/>
+      <MachineEntry uuid="{ceafa11d-c614-4959-9f75-96076d15e6cc}" src="/home/darkice/VirtualBox VMs/kde neon/kde neon.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
