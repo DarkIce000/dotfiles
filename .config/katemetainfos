@@ -9,3 +9,15 @@ Mode=Python
 Mode Set By User=false
 Time=2024,3,10,8,8,0.212
 URL=file:///home/darkice/.local/lib/python3.10/site-packages/django/contrib/sites/shortcuts.py
+
+[file:///home/darkice/dotfiles/.bashrc]
+Bookmarks=
+Checksum=1445a1bdd1327a9a4051626d709e686c128f68c3
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2024,3,12,19,10,26.59
+URL=file:///home/darkice/dotfiles/.bashrc
