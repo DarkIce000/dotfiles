@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Genymotion
+GenericName=Android Emulator
+Icon=/opt/genymobile/genymotion/icons/genymotion-logo.png
+Exec=/opt/genymobile/genymotion/genymotion
+Categories=Development;Emulator;
+X-XFCE-Source=file:///usr/share/applications/genymobile-genymotion.desktop

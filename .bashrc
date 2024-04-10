@@ -119,16 +119,13 @@ fi
 ##-----------------------------------------------------
 
 
-alias mailrunserver='cd ~/courses/cs50web/mail/ && source bin/activate && python manage.py runserver'
-alias codemail='cd ~/courses/cs50web/mail/ && source bin/activate && nvim .'
-alias acitvatemail='cd ~/courses/cs50web/mail/ && source bin/activate'
+alias code-mail='cd ~/courses/cs50web/mail/ && source bin/activate && nvim .'
+alias code-miniproject="cd /home/darkice/Desktop/courses/sem4/miniProject && source bin/activate &&cd life_blood_network && code ."
+alias code-portfolio='cd ~/portfolio-project/ && source bin/activate && nvim .'
+alias rs="python3 manage.py runserver"
 
-alias foliorunserver='cd ~/portfolio-project/ && source bin/activate && python manage.py runserver'
-alias codefolio='cd ~/portfolio-project/ && source bin/activate && nvim .'
-alias acitvatefolio='cd ~/portfolio-project/ && source bin/activate'
-alias search="apt-cache search"
-alias install="sudo apt install"
-alias i3config="vim $HOME/.config/i3/config"
-alias roficonfig="vim $HOME/.config/rofi/config.rasi"
-alias polybarconfig="vim $HOME/.config/polybar/config"
-#---
+alias i3config="nvim $HOME/.config/i3/config"
+alias roficonfig="nvim $HOME/.config/rofi/config.rasi"
+alias polybarconfig="nvim $HOME/.config/polybar/config"
+alias vim="nvim"
+

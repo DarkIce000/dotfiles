@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=takeuforward
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=oejeogiphkkmbkdbhmmmiaigofdafpaj
+Icon=chrome-oejeogiphkkmbkdbhmmmiaigofdafpaj-Default
+StartupWMClass=crx_oejeogiphkkmbkdbhmmmiaigofdafpaj
+X-XFCE-Source=file:///home/darkice/Desktop/chrome-oejeogiphkkmbkdbhmmmiaigofdafpaj-Default.desktop

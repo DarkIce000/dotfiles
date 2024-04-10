@@ -1,0 +1,20 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPeAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP-1 Height 1920x1080=1021
+eDP-1 Width 1920x1080=1920
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition 1920x1080=59
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/OS_Full_Notes.pdf
+File2[$e]=$HOME/Downloads/final synopsis.pdf
+File3[$e]=/run/user/1000/b1e53bc4_2d05_4568_aee0_98f2c2009bca/storage/emulated/0/Download/miniproject3.pdf
+Name1[$e]=OS_Full_Notes.pdf
+Name2[$e]=final synopsis.pdf
+Name3[$e]=miniproject3.pdf

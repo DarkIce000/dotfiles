@@ -12,19 +12,15 @@
       <ExtraDataItem name="GUI/GuestControl/FileManagerDialogGeometry" value="2,40,1916,1038"/>
       <ExtraDataItem name="GUI/GuestControl/FileManagerVisiblePanels" value="SessionPanel"/>
       <ExtraDataItem name="GUI/HideDescriptionForWizards" value="NewVD"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=kde neon"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="2,40,1916,1038"/>
-      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/darkice/Documents"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/darkice/Documents/neon-user-20240229-0716.iso,/home/darkice/Documents/archcraft-2024.01.08-x86_64.iso"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="n=GLOBAL"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="-306,240,1916,1030"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/darkice/Downloads"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/darkice/Downloads/garuda-hyprland-linux-zen-231029.iso,/home/darkice/Documents/neon-user-20240229-0716.iso,/home/darkice/Documents/archcraft-2024.01.08-x86_64.iso"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="654,1261"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
-    <MachineRegistry>
-      <MachineEntry uuid="{d424dce4-63bd-40e1-8d5b-081bc2f39714}" src="/home/darkice/VirtualBox VMs/windows 11/windows 11.vbox"/>
-      <MachineEntry uuid="{a50377b3-e07d-4f17-9d84-c844eba87bf3}" src="/home/darkice/VirtualBox VMs/Archcraft/Archcraft.vbox"/>
-      <MachineEntry uuid="{ceafa11d-c614-4959-9f75-96076d15e6cc}" src="/home/darkice/VirtualBox VMs/kde neon/kde neon.vbox"/>
-    </MachineRegistry>
+    <MachineRegistry/>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>

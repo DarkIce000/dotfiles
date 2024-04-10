@@ -1,0 +1,25 @@
+{
+	"locale": "en-US",
+	"lang": "en",
+	"country": "IN",
+	"theme": "../dist/main/css/themes/light.css",
+	"hotkey": "Control+Space",
+	"showInTray": true,
+	"firstStart": false,
+	"developerMode": false,
+	"cleanOnHide": true,
+	"selectOnShow": true,
+	"hideOnBlur": true,
+	"plugins": {},
+	"isMigratedPlugins": true,
+	"openAtLogin": true,
+	"winPosition": [
+		629,
+		311
+	],
+	"__internal__": {
+		"migrations": {
+			"version": "0.11.0"
+		}
+	}
+}

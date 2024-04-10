@@ -3,10 +3,11 @@ FontWeight=50
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=16
+PreviewSize=32
 
 [General]
 OpenNewTabAfterLastTab=true
+RememberOpenedTabs=false
 Version=201
 ViewPropsTimestamp=2024,2,12,21,31,50.143
 
@@ -17,6 +18,10 @@ FontWeight=50
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=561
+eDP-1 Width 1920x1080=472
+
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
@@ -25,6 +30,9 @@ eDP-1 Width 1920x1080=1916
 eDP-1 Window-Maximized 1920x1080=true
 eDP-1 XPosition 1920x1080=-58
 eDP-1 YPosition 1920x1080=235
+
+[Notification Messages]
+ConfirmEmptyTrash=true
 
 [Open-with settings]
 CompletionMode=1

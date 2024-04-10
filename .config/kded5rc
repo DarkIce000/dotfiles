@@ -8,7 +8,7 @@ autoload=true
 autoload=true
 
 [Module-browserintegrationreminder]
-autoload=true
+autoload=false
 
 [Module-colorcorrectlocationupdater]
 autoload=true

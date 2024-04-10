@@ -5,19 +5,32 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=960;y=540"/>
+      <property name="position" type="string" value="p=6;x=960;y=13"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
       <property name="background-style" type="uint" value="0"/>
       <property name="background-alpha" type="empty"/>
-      <property name="enter-opacity" type="uint" value="90"/>
-      <property name="leave-opacity" type="uint" value="78"/>
+      <property name="enter-opacity" type="uint" value="95"/>
+      <property name="leave-opacity" type="uint" value="95"/>
       <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
         <value type="int" value="7"/>
         <value type="int" value="4"/>
         <value type="int" value="10"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="9"/>
+        <value type="int" value="14"/>
+        <value type="int" value="15"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
         <value type="int" value="3"/>
+        <value type="int" value="21"/>
+        <value type="int" value="22"/>
+        <value type="int" value="23"/>
+        <value type="int" value="24"/>
+        <value type="int" value="25"/>
         <value type="int" value="2"/>
         <value type="int" value="5"/>
         <value type="int" value="13"/>
@@ -25,6 +38,7 @@
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="1"/>
+        <value type="int" value="18"/>
       </property>
       <property name="icon-size" type="uint" value="0"/>
       <property name="background-rgba" type="array">
@@ -36,6 +50,8 @@
       <property name="mode" type="uint" value="0"/>
       <property name="length-adjust" type="bool" value="false"/>
       <property name="disable-struts" type="bool" value="false"/>
+      <property name="background-image" type="string" value="file:///home/darkice/Pictures/99815.png"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
     </property>
     <property name="dark-mode" type="bool" value="true"/>
   </property>
@@ -49,9 +65,10 @@
       <property name="show-wireframes" type="bool" value="false"/>
       <property name="include-all-workspaces" type="bool" value="true"/>
     </property>
-    <property name="plugin-3" type="string" value="separator">
-      <property name="items" type="empty"/>
-      <property name="style" type="uint" value="0"/>
+    <property name="plugin-3" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125830511.desktop"/>
+      </property>
     </property>
     <property name="plugin-4" type="string" value="separator">
       <property name="items" type="empty"/>
@@ -66,11 +83,18 @@
       <property name="middle-click" type="empty"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="The KDE Crash Handler"/>
+        <value type="string" value="Cerebro1"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="Klipper"/>
+        <value type="string" value="vlc"/>
         <value type="string" value="blueman"/>
         <value type="string" value="psensor"/>
         <value type="string" value="KDE Connect Indicator"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="anydesk"/>
         <value type="string" value="ibus panel"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="mintupdate.py"/>
@@ -84,11 +108,15 @@
       <property name="rows" type="uint" value="1"/>
       <property name="miniature-view" type="bool" value="false"/>
     </property>
-    <property name="plugin-8" type="empty">
+    <property name="plugin-8" type="string" value="whiskermenu">
       <property name="names-visible" type="empty"/>
       <property name="show-frame" type="empty"/>
     </property>
-    <property name="plugin-9" type="empty"/>
+    <property name="plugin-9" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125827841.desktop"/>
+      </property>
+    </property>
     <property name="plugin-10" type="string" value="windowmenu">
       <property name="style" type="uint" value="1"/>
       <property name="workspace-actions" type="bool" value="false"/>
@@ -103,6 +131,7 @@
       <property name="show-notifications" type="empty"/>
       <property name="digital-layout" type="uint" value="3"/>
       <property name="mode" type="uint" value="2"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
     </property>
     <property name="plugin-13" type="string" value="pulseaudio">
       <property name="digital-time-format" type="empty"/>
@@ -110,8 +139,63 @@
       <property name="digital-date-font" type="empty"/>
       <property name="digital-time-font" type="empty"/>
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="AudioTube;chromium.instance1668;chromium.instance2125;chromium.instance2139;chromium.instance4185;chromium.instance8150;firefox.instance_1_116;Gwenview;kdeconnect.mpris_aebf0cb2a3dc4c29bca73df6ef61947a"/>
+      <property name="mpris-players" type="string" value="AudioTube;chromium.instance10298;chromium.instance11059;chromium.instance14495;chromium.instance1458;chromium.instance1461;chromium.instance1462;chromium.instance1472;chromium.instance1477;chromium.instance1479;chromium.instance1488;chromium.instance1501;chromium.instance1504;chromium.instance1561;chromium.instance1583;chromium.instance1586;chromium.instance1588;chromium.instance1590;chromium.instance1603;chromium.instance1610;chromium.instance1612;chromium.instance1654;chromium.instance1668;chromium.instance1674;chromium.instance16796;chromium.instance1695;chromium.instance1698;chromium.instance1701;chromium.instance1834;chromium.instance1898;chromium.instance19873;chromium.instance2025;chromium.instance2075;chromium.instance20915;chromium.instance2125;chromium.instance2139;chromium.instance2242;chromium.instance2250;chromium.instance23159;chromium.instance25531;chromium.instance26643;chromium.instance2876;chromium.instance3697;chromium.instance4185;chromium.instance5103;chromium.instance5453;chromium.instance5486;chromium.instance5506;chromium.instance5542;chromium.instance5777;chromium.instance5946;chromium.instance6312;chromium.instance7806;chromium.instance7998;chromium.instance8150;chromium.instance8404;chromium.instance9007;chromium.instance9110;chromium.instance9756;dragonplayer;firefox.instance_1_116;firefox.instance_1_182;firefox.instance_1_394;firefox.instance_1_67;Gwenview;Gwenview.instance22846;io.github.celluloid_player.Celluloid.instance-1;kdeconnect.mpris_005ac06d655d4b48be7aa4206858a517;kdeconnect.mpris_00938625f4064b63a3f224b05bc2b7fb;kdeconnect.mpris_00b787346e2c430a95c2328ce132900e;kdeconnect.mpris_01517359588a4a8fb604ac54faecb292;kdeconnect.mpris_04bc0650ea8f411dbed5edc175e1c146;kdeconnect.mpris_0645563f3f3f4cbebb87273dd4bb538e;kdeconnect.mpris_06c669e6209c4922988d6e18d9b39ba8;kdeconnect.mpris_07aea86efdc04dfaadf3d5f8ec03cc7b;kdeconnect.mpris_0a4281e2658c4a22b2c2c5e4d8159871;kdeconnect.mpris_0b210a1e7dc44c81871af89cf6767c56;kdeconnect.mpris_0b3c288987654366a826819984fca218;kdeconnect.mpris_0cea0d3606014266bb05907605bd532b;kdeconnect.mpris_0cea92335273497d9a978b1989647547;kdeconnect.mpris_0d0db73b3af84262906cac742c465f85;kdeconnect.mpris_0d5407c4fcef4b7495f8cd0189833108;kdeconnect.mpris_0f2aa172869a4257a03228b04163f938;kdeconnect.mpris_10d30db13e1b4dceb66ef9aa72ea7404;kdeconnect.mpris_1118c38f52f8456fb31f335af4debe58;kdeconnect.mpris_129397f306f448b1868df8198716560f;kdeconnect.mpris_12b37c2ad5244ed68a7666a4d966d985;kdeconnect.mpris_13cb0484db79433eb19f32aa4de223da;kdeconnect.mpris_15cdb0811970403b8447ed5d63b9d437;kdeconnect.mpris_164bdec6ba0e442c85fa2c552e278747;kdeconnect.mpris_1881a73483f14fcea3b0dcf709880ec2;kdeconnect.mpris_1da444de07ad4474ab379947f4ec8ae1;kdeconnect.mpris_228793f05ff34673b279994fc07dbe0d;kdeconnect.mpris_238beb815e6e49f08eb76fbbd4267649;kdeconnect.mpris_2aa3ef144eb547abbb306d3706137e61;kdeconnect.mpris_2af1f697310e4fbfb50bbc8846f60295;kdeconnect.mpris_2d52e7cef6224ffab525b306916d50c7;kdeconnect.mpris_2e09a3d4a87a41e8a611780bd73d4e0e;kdeconnect.mpris_2e399482ff2d4f8b8c9edc82c3faa00c;kdeconnect.mpris_2e930e75006247019f63f18d85093b89;kdeconnect.mpris_2eb3c30a4c4e46efa976d994248e891d;kdeconnect.mpris_2edd61d4223c4a08914eb7bcf0fa626e;kdeconnect.mpris_31e0a26a14cf4d02aadd37f3d6c48aba;kdeconnect.mpris_37c4fe3d9ac645f9ad9fed79de6af9c9;kdeconnect.mpris_38d623ed67324df1b7827a4d5fc4dc55;kdeconnect.mpris_3a9cc9c813e54934b8b04ba6221d3f79;kdeconnect.mpris_3abb70568532489080202ab5997bfa83;kdeconnect.mpris_3c56bb36e7a847cea0af48118924cdca;kdeconnect.mpris_3d4964e1da54413589ed1450651ac332;kdeconnect.mpris_3d4f709ea511494599e356586eab67a1;kdeconnect.mpris_3dd15f760a2e4c3fb241fc5941b442bb;kdeconnect.mpris_3eecf4af9f254aa5824c9e15b35607fb;kdeconnect.mpris_3ff0b64f27234111a78862ced04f9203;kdeconnect.mpris_412efa0c9611462283753697c4ba419f;kdeconnect.mpris_419e20b6298b4ec39ea3c9600b9bde20;kdeconnect.mpris_41be4bc3209848588881580d87e4c221;kdeconnect.mpris_41cc82b4217c43bfbff1398cd64ee229;kdeconnect.mpris_44d60d0e49e54ea3ba61266c7d856484;kdeconnect.mpris_44ec52cee1eb4ef4b884728e9017a83e;kdeconnect.mpris_46675f7326044bbcb3088c92ef6c4c42;kdeconnect.mpris_46cb9d0cc2434898a75c53733fe855e1;kdeconnect.mpris_475c0d87afbf420b8a60e79152a618d6;kdeconnect.mpris_490ffbfa0e4f4b70a6b719d401eb43f0;kdeconnect.mpris_4b22e9be460d41ceb68529391efbbf98;kdeconnect.mpris_4dae79c8bd3743d59fddcf6690058f08;kdeconnect.mpris_4dd9929db23645eb9f412ed962f8bed6;kdeconnect.mpris_50404712717a40f6858911b545c2f731;kdeconnect.mpris_53883e0dbace438a9757378ea2892a5a;kdeconnect.mpris_56b9dab9cde44fdc9134733fd2ce39ba;kdeconnect.mpris_5722908b09f24b84b3bdda7a5e497fde;kdeconnect.mpris_578e919dee1644bb81140b85b80a64a2;kdeconnect.mpris_57ed687c8b3a4764abcc54a83a8244da;kdeconnect.mpris_59623596cfcc4171ace7ecf030a392ee;kdeconnect.mpris_5b4428f8b0804807975422464b8cf2eb;kdeconnect.mpris_5c022b225eab4450b08d0327c27af278;kdeconnect.mpris_5e3663268ff848ad90867d4deb1745db;kdeconnect.mpris_62c53dd6ecec444ca2a9a25fbfb52834;kdeconnect.mpris_65690c08cca54628b5bcb7721b984f70;kdeconnect.mpris_67eab7c04fc24ea99500b07fe6497395;kdeconnect.mpris_680c3bfaaf7d42149706466f33f2aed7;kdeconnect.mpris_6c1a0405bd4744da961a5eed0bd0eae2;kdeconnect.mpris_6cdb52521df94c658d5bcc0539a2facd;kdeconnect.mpris_6d278efa9e394cf28802e200d7e9e3a9;kdeconnect.mpris_6db6dc2e72704659a4acf019e82fdaa1;kdeconnect.mpris_6e65294dd1804bd49368d140388e4161;kdeconnect.mpris_6f1310f8d1d04d31831153a22e67fec7;kdeconnect.mpris_766ec0c8800d4ee19d623ea3a67b2087;kdeconnect.mpris_77a4251415bf405eb88a2bd628f68893;kdeconnect.mpris_788bec22736d4ce6a4643fca731ed132;kdeconnect.mpris_79dc2e8310e7444dae931e9d93b33a50;kdeconnect.mpris_7d31500e8a3542fda3994801a2c0e424;kdeconnect.mpris_8190488082504090929fb09da03f7cb8;kdeconnect.mpris_81b053ce4e654b999c40d9e0a9a5cc25;kdeconnect.mpris_8245f886be1149cc938e2d5712d40c01;kdeconnect.mpris_836f46dcd8be4e37b0566c11575d1c2a;kdeconnect.mpris_87ecaf4e322a4b11839c04c4814f78d0;kdeconnect.mpris_88e4e13033fa4b9d82fb06426c691aa4;kdeconnect.mpris_8b9a147ea4794516a25339c641a47b25;kdeconnect.mpris_8bab511399ae4e66853142cce7f1bb1b;kdeconnect.mpris_92183ab8e9884c65b42f53450f4400f2;kdeconnect.mpris_95d91b140ce0447b93477caf170a2978;kdeconnect.mpris_964ee6da8a714bbf958e070bbbc4ed3f;kdeconnect.mpris_9796e5f483c34a30a4ffd1de6d4ec37f;kdeconnect.mpris_9870ecaa25a44648a58b6e340ce08c59;kdeconnect.mpris_98bd8a47c31048e79d5318f43327aa11;kdeconnect.mpris_9e2d515fa42440448a9a92cef6a8ebc6;kdeconnect.mpris_9e7bc283caf946ae8e27e78c23dda5a7;kdeconnect.mpris_9f9e44b0b48f4930b8e8627b084c26c1;kdeconnect.mpris_a085fb781554474289a917f1415be6ca;kdeconnect.mpris_a25f30ddf81c42bf9865cbd576ff17c7;kdeconnect.mpris_a31238b5e2cc45ff8d36919011fbdc74;kdeconnect.mpris_a80e18d7c68c4f8686d0052db127157f;kdeconnect.mpris_ab7bc388bb114503867ae3904d4df555;kdeconnect.mpris_ace0be62bbba475da93554c6c6c83fa9;kdeconnect.mpris_aebf0cb2a3dc4c29bca73df6ef61947a;kdeconnect.mpris_afb76b550f364e2d812c5c560b558f5c;kdeconnect.mpris_b1ccf66849044fcdb2695bc8ccf13dd6;kdeconnect.mpris_b2cf2cb1a6f645b4a61ac45653b22aa3;kdeconnect.mpris_b2d45c717859478797229edba8a51faf;kdeconnect.mpris_b2ee99ab14e94fd3b7b71e145abac56c;kdeconnect.mpris_b327b5e2c3f244c69e3e97a7da641097;kdeconnect.mpris_b492c1c57ab8456ab2e132be124a560f;kdeconnect.mpris_b7acc4fa79684118b2f12e90220eb3c1;kdeconnect.mpris_b82e4ffa30004781bf9cca161e9623e6;kdeconnect.mpris_b92c1c7e9be64c8f802361d0a75b8285;kdeconnect.mpris_b944d2d6e035469d9d10f13edee87e82;kdeconnect.mpris_bbb0526c18334b36b5d9b230423bb2ef;kdeconnect.mpris_bc1ef9136e6f4ec5b912505828900514;kdeconnect.mpris_bdf61176c7494e088b3ca8a496516c0d;kdeconnect.mpris_be15baa3f3b54abf8428c53316c14293;kdeconnect.mpris_c1bdef102a98412a8f0b7e71fc6bac42;kdeconnect.mpris_c214519fb1654405b5a632a058ffe4ed;kdeconnect.mpris_c26416ecc3b7435e9e8435449dd01a6c;kdeconnect.mpris_c335214a81d544f3979bf638fd99ce40;kdeconnect.mpris_c47e6da332f2411185df33100cc550ef;kdeconnect.mpris_c5795d03d49f42c7b1c5dbe83026db5d;kdeconnect.mpris_c5c3ba923d0b42d68086a9566957a3d9;kdeconnect.mpris_c649f2d5122b4edf899fc8f3f569542c;kdeconnect.mpris_c6b177b69bdd451f9eed46bd9da574c6;kdeconnect.mpris_c82c7c04a8de4dad8fe2ddb77ef6e26e;kdeconnect.mpris_c8a5f5feda1e4ba0909d171695879a40;kdeconnect.mpris_cad8750888b94bb6b5ed731f61ebc401;kdeconnect.mpris_cc5f0361accc4f2c969d944b9466f62d;kdeconnect.mpris_ce19a973529c49c68463daf8f5ef5978;kdeconnect.mpris_d07c8f1f24b54590bb41b36bc4929e61;kdeconnect.mpris_d17c48fcff9b4af297bd9fee46f95371;kdeconnect.mpris_d221a9b39d814f2985f345090ab2dea1;kdeconnect.mpris_d34fd90b8dd74b92a5a2b9a93fe0b0c8;kdeconnect.mpris_d369ba6e533b490b9d8173c6b9f5f208;kdeconnect.mpris_d3e278a9b2ad43fc898783749b2db574;kdeconnect.mpris_d4d2c1e47a2244a7b64bd9680e3a9ec7;kdeconnect.mpris_d81604a58fd54e1daf9053a4285ef859;kdeconnect.mpris_d94a1bc0abce4156aa85fe0f21284146;kdeconnect.mpris_da35d5d2428c4acc8d05635b6ecc6dad;kdeconnect.mpris_dda792daec27419386c9904755bbe709;kdeconnect.mpris_debaf04be731458ea0fe4bcf7a758709;kdeconnect.mpris_ded5f4901a0541389b143e583fef103e;kdeconnect.mpris_e0209b29e3be43a3b77f9c8348db4172;kdeconnect.mpris_e073ecf3f35d4edcbb255db2a1fe70a5;kdeconnect.mpris_e2f274b306784ff894576c6edcbce604;kdeconnect.mpris_e3018de0899d431192dfb5aa66f16408;kdeconnect.mpris_e4a63f5505cd4b0984324e996294a165;kdeconnect.mpris_e52042ae4e2c4f91a63d862979d20a71;kdeconnect.mpris_e529910535ee49f1a4e3ff17b88f1853;kdeconnect.mpris_e6d6258d0f9f4921a068f2092e4bb59f;kdeconnect.mpris_e8bcc19592364643b8c9c500a421d836;kdeconnect.mpris_e9a9286257904888ab1b13910eb2a32d;kdeconnect.mpris_edc85fcc20dc455c92ed1492c15a1114;kdeconnect.mpris_ef0c5357c1d247d496165c56e8c373b8;kdeconnect.mpris_f2e22697322d401e9ea9ce41244b8e37;kdeconnect.mpris_f3da617f36b348b393524b1295cdbe45;kdeconnect.mpris_f4abc56170704400b9e859e211278e5a;kdeconnect.mpris_f6d6e0ec2e26455cb0f41d51d53d4fbf;kdeconnect.mpris_f79391640fce468ba280ae969d77d08d;kdeconnect.mpris_fad3310f34004a82a6d214b75d698bf7;kdeconnect.mpris_fc3481c7e4ee4b6285f22579aac68cf3;kdeconnect.mpris_ff7a3733923d4a4388ac7b80e3463f06;kdeconnect.mpris_ffe7955c157a400d865dd64c62eb53dc;plasma-browser-integration;spotify;vlc"/>
     </property>
-    <property name="plugin-14" type="empty"/>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125828212.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="actions"/>
+    <property name="plugin-15" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125828583.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125829094.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125829265.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125829536.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125829747.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125830642.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-22" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125830803.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125831134.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125831305.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-25" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17125831746.desktop"/>
+      </property>
+    </property>
   </property>
 </channel>

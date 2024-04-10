@@ -1,0 +1,19 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=EFI System Partition
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
+Icon=drive-harddisk-root
+LastNameSeen=146.6 GiB Internal Drive (sda2)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda4]
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+
+[Devices][/org/kde/fstab/fuse.sshfs/run/user/1000/b1e53bc4_2d05_4568_aee0_98f2c2009bca]
+EverMounted=true
+LastSeenMounted=true

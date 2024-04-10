@@ -1,19 +1,126 @@
 [General]
-Recent Urls[$e]=file:///run/user/1000/b1e53bc4_2d05_4568_aee0_98f2c2009bca/storage/emulated/0/Download/2024-02-08 13-02-32.mkv
+Recent Urls[$e]=file:///run/user/1000/b1e53bc4_2d05_4568_aee0_98f2c2009bca/storage/emulated/0/Download/2024-02-08 13-02-32.mkv,file:$HOME/Downloads/Kung.Fu.Panda.4.2024.HDCAM.c1nem4.x264-SUNSCREEN[TGx]/Kung.Fu.Panda.4.2024.HDCAM.c1nem4.x264-SUNSCREEN.mkv,file:$HOME/Downloads/Spaceman (2024) [1080p] [WEBRip] [5.1] [YTS.MX]/Spaceman.2024.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4,file:$HOME/2024-03-22 22-22-44.mkv,file:$HOME/Videos/2024-02-08 12-50-13.mkv,file:$HOME/Videos/2024-02-08 13-02-32.mkv,file:$HOME/2024-03-13 01-14-30.mkv,file:$HOME/2024-03-27 21-58-01.mkv,file:$HOME/Downloads/Megamind Vs. The Doom Syndicate (2024) [1080p] [WEBRip] [5.1] [YTS.MX]/Megamind.Vs..The.Doom.Syndicate.2024.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4,file:$HOME/Downloads/Paddington (2014)/Paddington.2014.720p.BluRay.x264.YIFY.mp4,file:$HOME/Documents/Paddington (2014)/Paddington.2014.720p.BluRay.x264.YIFY.mp4
 TimeFormat=1
-Volume=1
+Volume=0.9865525015875197
 
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAN7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAEAAABDAAAEE/wCAAAAAfsAAAAWAHYAbwBsAHUAbQBlAF8AZABvAGMAawAAAAAlAAAEEwAAAAAAAAAAAAAHfAAAA7EAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-eDP-1 Height 1920x1080=258
-eDP-1 Width 1920x1080=651
-eDP-1 Window-Maximized 1920x1080=true
-eDP-1 XPosition 1920x1080=0
-eDP-1 YPosition 1920x1080=50
+eDP-1 Height 1920x1080=1007
+eDP-1 Width 1920x1080=1916
+eDP-1 XPosition 1920x1080=2
+eDP-1 YPosition 1920x1080=71
 
 [Phonon::AudioOutput]
-Dragon Player_Volume=1
+Dragon Player_Volume=0.99
+
+[file:///home/darkice/2024-03-13 01-14-30.mkv]
+AudioChannel=2
+Brightness=0
+Contrast=0
+Date=2024,3,27
+Hue=0
+IsVideo=true
+Position=27009
+Preferred Size=378,993
+Saturation=0
+
+[file:///home/darkice/2024-03-22 22-22-44.mkv]
+AudioChannel=2
+Brightness=0
+Contrast=0
+Date=2024,3,22
+Hue=0
+IsVideo=true
+Position=7852
+Preferred Size=651,155
+Saturation=0
+
+[file:///home/darkice/2024-03-27 21-58-01.mkv]
+Brightness=0
+Contrast=0
+Date=2024,3,27
+Hue=0
+IsVideo=false
+Preferred Size=1920,1080
+Saturation=0
+
+[file:///home/darkice/Documents/Paddington (2014)/Paddington.2014.720p.BluRay.x264.YIFY.mp4]
+AudioChannel=2
+Brightness=0
+Contrast=0
+Date=2024,4,7
+Hue=0
+IsVideo=true
+Position=769028
+Preferred Size=1916,945
+Saturation=0
+Subtitle=2
+
+[file:///home/darkice/Downloads/Kung.Fu.Panda.4.2024.HDCAM.c1nem4.x264-SUNSCREEN\x5bTGx\x5d/Kung.Fu.Panda.4.2024.HDCAM.c1nem4.x264-SUNSCREEN.mkv]
+AudioChannel=2
+Brightness=0
+Contrast=0
+Date=2024,3,21
+Hue=0
+IsVideo=true
+Position=52780
+Preferred Size=1916,978
+Saturation=0
+
+[file:///home/darkice/Downloads/Megamind Vs. The Doom Syndicate (2024) \x5b1080p\x5d \x5bWEBRip\x5d \x5b5.1\x5d \x5bYTS.MX\x5d/Megamind.Vs..The.Doom.Syndicate.2024.1080p.WEBRip.x264.AAC5.1-\x5bYTS.MX\x5d.mp4]
+AudioChannel=2
+Brightness=0
+Contrast=0
+Date=2024,4,4
+Hue=0
+IsVideo=true
+Position=41150
+Preferred Size=1842,967
+Saturation=0
+Subtitle=2
+
+[file:///home/darkice/Downloads/Paddington (2014)/Paddington.2014.720p.BluRay.x264.YIFY.mp4]
+Brightness=0
+Contrast=0
+Date=2024,4,7
+Hue=0
+IsVideo=false
+Preferred Size=636,965
+Saturation=0
+
+[file:///home/darkice/Downloads/Spaceman (2024) \x5b1080p\x5d \x5bWEBRip\x5d \x5b5.1\x5d \x5bYTS.MX\x5d/Spaceman.2024.1080p.WEBRip.x264.AAC5.1-\x5bYTS.MX\x5d.mp4]
+AudioChannel=2
+Brightness=0
+Contrast=0
+Date=2024,3,22
+Hue=0
+IsVideo=true
+Position=3400
+Preferred Size=1916,978
+Saturation=0
+Subtitle=2
+
+[file:///home/darkice/Videos/2024-02-08 12-50-13.mkv]
+AudioChannel=2
+Brightness=0
+Contrast=0
+Date=2024,3,25
+Hue=0
+IsVideo=true
+Position=57153
+Preferred Size=1920,962
+Saturation=0
+
+[file:///home/darkice/Videos/2024-02-08 13-02-32.mkv]
+Brightness=0
+Contrast=0
+Date=2024,3,25
+Hue=0
+IsVideo=false
+Preferred Size=1920,962
+Saturation=0
 
 [file:///run/user/1000/b1e53bc4_2d05_4568_aee0_98f2c2009bca/storage/emulated/0/Download/2024-02-08 13-02-32.mkv]
 Brightness=0

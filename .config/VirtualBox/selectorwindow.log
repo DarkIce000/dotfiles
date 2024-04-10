@@ -1,18 +1,27 @@
-00:00:00.173090 VirtualBox GUI VM Selector Window 6.1.50_Ubuntu r161033 linux.amd64 (Jan 23 2024 12:29:45) release log
-00:00:00.173092 Log opened 2024-02-29T14:43:33.610900000Z
-00:00:00.173093 Build Type: release
-00:00:00.173097 OS Product: Linux
-00:00:00.173098 OS Release: 5.15.0-97-generic
-00:00:00.173098 OS Version: #107-Ubuntu SMP Wed Feb 7 13:26:48 UTC 2024
-00:00:00.173122 DMI Product Name: Latitude E7450
-00:00:00.173129 DMI Product Version: 
-00:00:00.173136 Firmware type: UEFI
-00:00:00.173250 Secure Boot: Disabled
-00:00:00.173286 Host RAM: 11829MB (11.5GB) total, 5347MB (5.2GB) available
-00:00:00.173289 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.173290 Process ID: 4695
-00:00:00.173290 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.173315 Qt version: 5.15.3
-00:00:00.209046 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.697967 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1281x20 x 637x1058
-00:00:00.731281 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.388585 VirtualBox GUI VM Selector Window 6.1.50_Ubuntu r161033 linux.amd64 (Jan 23 2024 12:29:45) release log
+00:00:00.388587 Log opened 2024-03-15T05:30:36.228589000Z
+00:00:00.388587 Build Type: release
+00:00:00.388592 OS Product: Linux
+00:00:00.388593 OS Release: 6.5.0-25-generic
+00:00:00.388594 OS Version: #25~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Feb 20 16:09:15 UTC 2
+00:00:00.388623 DMI Product Name: Latitude E7450
+00:00:00.388634 DMI Product Version: 
+00:00:00.388642 Firmware type: UEFI
+00:00:00.388789 Secure Boot: Disabled
+00:00:00.388832 Host RAM: 11817MB (11.5GB) total, 10407MB (10.1GB) available
+00:00:00.388836 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.388837 Process ID: 9631
+00:00:00.388837 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.388870 Qt version: 5.15.3
+00:00:00.404785 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.898756 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x23 x 1920x1057
+00:00:00.947043 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:06.069910 GUI: UIMediumEnumerator: Medium with key={{d383e808-c7e4-42e1-a7cb-9cf8c3442904}} created
+00:01:06.264953 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:19.950096 GUI: UIMediumEnumerator: Medium with key={{05954de8-7f1c-4f19-88b6-7c1b7533bf9b}} created
+00:02:20.015814 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:24.256673 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:24.286576 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:13.821990 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:26.149269 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:26.701361 GUI: UIMediumEnumerator: Medium-enumeration finished!

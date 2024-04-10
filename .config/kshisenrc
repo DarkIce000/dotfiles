@@ -1,0 +1,10 @@
+[General]
+Background_file=/usr/share/kmahjongglib/backgrounds/egyptian.desktop
+Tileset_file=/usr/share/kmahjongglib/tilesets/default.desktop
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA2AAAAKJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 XPosition 1920x1080=528
+eDP-1 YPosition 1920x1080=210
